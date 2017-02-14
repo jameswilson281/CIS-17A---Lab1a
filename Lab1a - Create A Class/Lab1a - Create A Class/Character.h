@@ -4,9 +4,11 @@ using namespace std;
 
 class Character
 {
-public:
+private:
 	int age;
 	string name;
+
+public:	
 
 	Character(string,int);
 	~Character();

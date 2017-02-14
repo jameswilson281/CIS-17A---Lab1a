@@ -18,8 +18,12 @@ string GetJakeGreeting()
 
 int main() {
 	auto finn = Character("Finn", 14);
-	auto jake = Character("Jake", 28);
-	cout 
+	auto jake = Character("Jake", 28);	
+
+	finn.age = 10194823;
+	finn.name = "Poopy Poop";
+
+	cout
 		<< finn.Greet() << endl
 		<< jake.Greet() << endl;
 

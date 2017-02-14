@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Character.h"
 
 using namespace std;
 
@@ -16,9 +17,11 @@ string GetJakeGreeting()
 
 
 int main() {
+	auto finn = Character("Finn", 14);
+	auto jake = Character("Jake", 28);
 	cout 
-		<< GetFinnGreeting() << endl
-		<< GetJakeGreeting() << endl;
+		<< finn.Greet() << endl
+		<< jake.Greet() << endl;
 
 	getchar();
 	return 0;

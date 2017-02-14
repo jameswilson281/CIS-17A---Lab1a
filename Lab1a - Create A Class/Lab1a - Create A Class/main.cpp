@@ -3,12 +3,22 @@
 
 using namespace std;
 
-string GetGreeting() {
-	return "Hello, World!";
+string GetFinnGreeting()
+{
+	return "Hi, my name is Finn and I'm 14!";
 }
 
+string GetJakeGreeting()
+{
+	return "Hi, my name is Jake and I'm 28!";
+}
+
+
+
 int main() {
-	cout << GetGreeting() << endl;
+	cout 
+		<< GetFinnGreeting() << endl
+		<< GetJakeGreeting() << endl;
 
 	getchar();
 	return 0;

@@ -10,6 +10,7 @@ private:
 public:	
 
 	Character(string,int);
+	Character(string);
 	~Character();
 
 	int GetAge();

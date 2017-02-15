@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 	auto finn = Character("Finn", 14);
 	auto jake = Character("Jake", 28);
-	auto marceline = Character("Marceline", 1000);
+	auto marceline = Character("Marceline");
 
 	cout
 		<< finn.Greet() << endl

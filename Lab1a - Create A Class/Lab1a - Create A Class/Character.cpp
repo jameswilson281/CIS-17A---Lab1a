@@ -25,6 +25,10 @@ Character::Character(string name, int age) : name(name), age(age)
 {
 }
 
+Character::Character(string name) : name(name)
+{
+}
+
 
 Character::~Character()
 {

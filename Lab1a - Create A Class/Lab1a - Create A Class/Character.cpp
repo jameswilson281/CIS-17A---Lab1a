@@ -10,9 +10,13 @@ int Character::GetAge()
 	return age;
 }
 
-void Character::SetAge(int newAge)
+bool Character::SetAge(int newAge)
 {
+	if (newAge < 0) {
+		return false;
+	}
 	age = newAge;
+	return true;
 }
 
 

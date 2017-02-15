@@ -116,6 +116,9 @@
   <ItemGroup>
     <ClInclude Include="Character.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Lab1 - UML.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

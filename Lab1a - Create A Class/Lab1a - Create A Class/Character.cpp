@@ -10,10 +10,8 @@ int Character::GetAge()
 	return age;
 }
 
-Character::Character(string iName, int iAge)
+Character::Character(string name, int age) : name(name), age(age)
 {
-	name = iName;
-	age = iAge;
 }
 
 

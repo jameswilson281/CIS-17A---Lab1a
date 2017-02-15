@@ -13,6 +13,7 @@ public:
 	~Character();
 
 	int GetAge();
+	void SetAge(int);
 	string Greet();
 };
 

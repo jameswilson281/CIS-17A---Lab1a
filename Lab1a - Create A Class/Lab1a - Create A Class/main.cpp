@@ -15,6 +15,9 @@ int main() {
 
 	cout << "Marceline is a vampire that is " << to_string(marceline.GetAge()) << " years old!" << endl;
 
+	marceline.SetAge(20);
+	cout << "Marceline is a vampire that is " << to_string(marceline.GetAge()) << " years old!" << endl;
+
 	getchar();
 	return 0;
 }

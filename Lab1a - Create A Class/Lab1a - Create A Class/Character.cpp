@@ -10,6 +10,13 @@ int Character::GetAge()
 	return age;
 }
 
+void Character::SetAge(int newAge)
+{
+	age = newAge;
+}
+
+
+
 Character::Character(string name, int age) : name(name), age(age)
 {
 }

@@ -7,8 +7,10 @@ class Character
 private:
 	int age;
 	string name;
+	string race;
 public:	
 
+	Character(string, int, string);
 	Character(string,int);
 	Character(string);
 	~Character();

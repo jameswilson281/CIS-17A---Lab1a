@@ -1,4 +1,6 @@
 #include "Character.h"
+#include <iostream>
+using namespace std;
 
 string Character::Greet()
 {
@@ -31,6 +33,11 @@ bool Character::SetAge(int newAge)
 
 
 
+Character::Character(string name, int age, string race) : Character(name,age)
+{
+	race = race;
+}
+
 Character::Character(string name, int age) : name(name), age(age)
 {
 }
@@ -42,4 +49,5 @@ Character::Character(string name) : name(name), age(-1)
 
 Character::~Character()
 {
+	cout << "Oh no " << name << " is dead" << endl;
 }

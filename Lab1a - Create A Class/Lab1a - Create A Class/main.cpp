@@ -4,6 +4,13 @@
 
 using namespace std;
 
+
+void ScopeTest() {
+	auto iceKing = Character("Ice King", 1000, "Human");
+	cout << iceKing.Greet() << endl;
+	return;
+}
+
 int main() {
 	auto finn = Character("Finn", 14);
 	auto jake = Character("Jake", 28);
@@ -24,7 +31,10 @@ int main() {
 
 	cout << bmo.Greet() << endl;
 
+	ScopeTest();
 	getchar();
 	return 0;
 }
+
+
 

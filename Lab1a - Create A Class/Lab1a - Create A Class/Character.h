@@ -14,6 +14,7 @@ public:
 	~Character();
 
 	int GetAge();
+	string HowOld();
 	bool SetAge(int);
 	string Greet();
 };

@@ -13,10 +13,10 @@ int main() {
 		<< finn.Greet() << endl
 		<< jake.Greet() << endl;
 
-	cout << "Marceline is a vampire that is " << to_string(marceline.GetAge()) << " years old!" << endl;
+	cout << "Marceline is a vampire that is " << marceline.HowOld() << endl;
 
 	auto result = marceline.SetAge(20);
-	cout << "Marceline is a vampire that is " << to_string(marceline.GetAge()) << " years old!" << endl;
+	cout << "Marceline is a vampire that is " << marceline.HowOld() << endl;
 
 	result = marceline.SetAge(-50);	
 	cout << "Marceline is a vampire that is " << to_string(marceline.GetAge()) << " years old!" << endl;

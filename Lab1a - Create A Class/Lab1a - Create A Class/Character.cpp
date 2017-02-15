@@ -2,20 +2,22 @@
 
 string Character::Greet()
 {
-	return "Hi!  My name is " + name + " and I am " + HowOld() + " years old!";
+	return "Hi!  My name is " + name + " and I am " + HowOld();
 }
 
 int Character::GetAge()
-{	
+{
 	return age;
 }
 
 string Character::HowOld()
 {
-	if (age == -1) { //yoda assignment?
-		return "some unknown number of years old!";
+	switch (age) {
+		case -1: return "some unknown number of years old!";
+		case 1: return "a year old!";
+		default: return to_string(age) + " years old!";
 	}
-	return to_string(age) + " years old!";
+
 }
 
 bool Character::SetAge(int newAge)
